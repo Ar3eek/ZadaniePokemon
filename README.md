@@ -48,19 +48,6 @@ npm run build
 
 ---
 
-## 📁 Struktura projektu
-
-```
-src/
- ├─ components/
- │   └─ PokemonExplorer.vue
- ├─ App.vue
- ├─ main.js
- ├─ routes.js
- └─ style.css
-```
-
----
 
 ##  Naive UI — konfiguracja
 
