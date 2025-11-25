@@ -213,7 +213,7 @@ export default {
           </div>
         </div>
         <div class="mt-4 flex justify-center">
-          <div class="flex gap-2 flex-wrap items-center">
+          <div class="flex gap-2 flex-wrap md:flex-nowrap items-center">
             <button
                 v-for="type in types"
                 :key="type"
