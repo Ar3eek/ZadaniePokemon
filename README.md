@@ -16,39 +16,6 @@ Pozwala przeglądać Pokémony, filtrować je po typach, wyszukiwać oraz wyświ
 
 ---
 
-##  Funkcje aplikacji
-
-### ✔ Lista Pokémonów
-- Miniaturka  
-- Nazwa  
-- Formatowany numer (#001)  
-- Typy w formie pill  
-- Tło zależne od typu (gradient przy 2 typach)
-
-### ✔ Filtrowanie po typach
-- Wszystkie oficjalne typy  
-- Możliwość wybrania wielu typów jednocześnie  
-- Aktywne typy wyróżnione białym ringiem  
-
-### ✔ Wyszukiwanie
-- Pole wyszukiwania z debounce (250 ms)  
-- Przycisk „✕” do czyszczenia  
-- Styl zgodny z designem  
-
-### ✔ Szczegóły Pokémona (modal)
-Zawiera:
-- Sprite’y (default/shiny/back)
-- Typy
-- Ewolucje (parsowane z evolution chain)
-- Lokacje (pierwsze 12 wyników)
-
-Modal używa teleport → zawsze pojawia się na środku ekranu.
-
-### ✔ Ładowanie kolejnych wyników
-- Przycisk **Load more**
-- Pobiera kolejne 12 Pokémonów
-
----
 
 ##  Instalacja i uruchomienie
 
@@ -95,7 +62,7 @@ src/
 
 ---
 
-## 🔧 Naive UI — konfiguracja
+##  Naive UI — konfiguracja
 
 Plik `main.js`:
 
@@ -130,4 +97,3 @@ app.mount('#app')
 - Kolory typów zgodne z PokeAPI  
 - Search bar dopasowany do makiety  
 - Responsywny układ kart  
-
